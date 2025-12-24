@@ -14,8 +14,8 @@ Telegram bot для получения токенов доступа VK чере
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <repository-url>
-cd vk_me_v2
+git clone https://github.com/sh1ssuevdev/vk-token-bot-tg.git
+cd vk-token-bot-tg
 ```
 
 2. Установите зависимости:
