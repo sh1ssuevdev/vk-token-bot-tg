@@ -1,8 +1,8 @@
 const winston = require('winston');
 const TelegramLogger = require('winston-telegram');
 
-const TELEGRAM_TOKEN = '8477895961:AAFKYWnyzyJoPn0kmaMQ_OkkEstFWsj7zTg';
-const TELEGRAM_CHAT_ID = '5292864478';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
 const logger = winston.createLogger({
     level: 'info',
